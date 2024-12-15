@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    display: flex;
+    padding: 64px 158px 368px 158px;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", serif;
+}
+
+.main {
+    display: flex;
+    padding: 96px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+    background: #E2F7FF;
+    min-width: 1604px;
+}
+
+.main-container {
+    display: flex;
+    padding-bottom: 96px;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+    min-width: 1412px;
+}
+
+.maincard {
+    display: flex;
+    height: 804px;
+    min-width: 320px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.main-description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.desctext {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.date {
+    color: #6941C6;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+h2 {
+    color: #181D27;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    min-width: 344px;
+}
+
+.maintitle {
+    letter-spacing: 0.8px;
+    line-height: 38px;
+    font-size: 30px;
+    min-width: 1176px;
+}
+
+p {
+    font-weight: 300;
+    overflow: hidden;
+    color: #535862;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05px;
+}
+
+button {
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    border-radius: 9999px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+
+.buttons {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.purpleB {
+    color: #6941C6;
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+}
+
+.blueB {
+    color: #3538CD;
+    border: 1px solid #C7D7FE;
+    background: #EEF4FF;
+}
+
+.redB {
+    color: #C11574;
+    border: 1px solid #FCCEEE;
+    background: #FDF2FA;
+}
+
+.cyanB {
+    color: #026AA2;
+    border: 1px solid #B9E6FE;
+    background: #F0F9FF;
+}
+
+.greenB {
+    color: #067647;
+    border: 1px solid #ABEFC6;
+    background: #ECFDF3;
+}
+
+.grayB {
+    color: #363F72;
+    border: 1px solid #D5D9EB;
+    background: #F8F9FC;
+}
+
+.orangeB {
+    color: #B93815;
+    border: 1px solid #F9DBAF;
+    background: #FEF6EE;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 384px;
+}
+
+.title {
+    display: flex;
+    gap: 16px;
+    align-items: baseline;
+}
+
+.title h2 {
+    letter-spacing: 0.4px;
+}
+
+.main-title {
+    display: flex;
+    gap: 16px;
+}
+
+.title-desc {
+    width: 380px;
+}
+
+.cards {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 48px 32px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+}
